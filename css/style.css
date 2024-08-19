@@ -79,7 +79,7 @@ function sp_viewport_meta_tag() {
 }
 
 .aboutme-content {
-    color: #F1F1F1;
+    color: #74b44a;
     width: 100%;
     max-width: 1000px;
     display: flex;
