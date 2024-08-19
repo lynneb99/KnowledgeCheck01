@@ -1,4 +1,4 @@
-/* 	
+ /* 	
 =============================================================================
 NORMALIZE normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css
 =============================================================================
@@ -45,6 +45,12 @@ body {
     align-items: center;
     padding: 12px;
     margin: 0;
+}
+
+//* Add custom Viewport meta tag for mobile browsers
+add_action( 'genesis_meta', 'sp_viewport_meta_tag' );
+function sp_viewport_meta_tag() {
+	echo '<meta name="viewport" content="width=device-width, initial-scale=1.0"/>';
 }
 
 .hero-container {
